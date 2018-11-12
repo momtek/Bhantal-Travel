@@ -109,6 +109,8 @@ header {
 
 header h2 {
   font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 header nav {
@@ -118,6 +120,7 @@ header nav {
 
 header nav li {
   margin: 0 15px;
+  font-size: 24px;
 }
 
 @media (max-width: 800px) {
@@ -235,6 +238,20 @@ video.background-video {
 
 .destinations .grid li.large {
   flex-basis: 70%;
+}
+
+.destinations-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.destinations-li:hover {
+  opacity: 0.9;
 }
 @media (max-width: 1100px) {
   .destinations .grid li.small,
