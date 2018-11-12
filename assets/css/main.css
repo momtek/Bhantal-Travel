@@ -283,6 +283,12 @@ video.background-video {
   margin: 25px 0;
 }
 
+.packages .grid li img {
+  width: 350px;
+  height: 120px;
+  margin-bottom: -40px;
+}
+
 @media (max-width: 800px) {
   .packages .grid li {
     flex-basis: 100%;
